@@ -2,11 +2,14 @@
   "name": "health-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://mmgray.github.io/health-tracker",
+  "homepage": "http://mmgray.github.io/health-tracker",
   "dependencies": {
+    "mysql": "^2.16.0",
+    "mysql-server": "^1.0.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-scripts": "2.1.2",
+    "vesper": "^0.1.9"
   },
   "scripts": {
     "start": "react-scripts start",
